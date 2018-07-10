@@ -10,7 +10,7 @@ public class Triangle {
         for (int i = 0; i < number ; i++) {
             System.out.print("*");
         }
-        System.out.println("");
+        System.out.println();
     }
 
     public void drawVerticalLine(Integer number){
@@ -24,7 +24,7 @@ public class Triangle {
             for (int j = i+1; j > 0; j--){
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 
